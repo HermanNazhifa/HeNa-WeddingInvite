@@ -73,21 +73,6 @@ export const data = {
     },
   ],
 
-  bank: [
-    {
-      id: 1,
-      name: "Lorem Ipsum",
-      icon: "./src/assets/images/bca.png",
-      rekening: "12345678",
-    },
-    {
-      id: 2,
-      name: "Ipsum Lorem",
-      icon: "./src/assets/images/bri.png",
-      rekening: "12345678",
-    },
-  ],
-
   audio: "./src/assets/audio/wedding-v2.mp3",
 
   api: "https://script.google.com/macros/s/AKfycbz7j_-ydKTc39OMf2X5AqK0awtGKT-ZNGXLHUtiwlZO8RbjVxbVhmfifb9vL_bFiKob/exec",
