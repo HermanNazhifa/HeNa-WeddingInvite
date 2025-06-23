@@ -24,7 +24,6 @@
 }
 
 .galeri .container figure {
-  height: auto;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -41,8 +40,8 @@
 
 .galeri .container figure img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 35rem;
+  object-fit: cover;
   border-radius: 15px;
   transition: var(--transition-small);
 }
@@ -170,15 +169,4 @@
 .galeri > i {
   top: 2rem;
   left: 10rem;
-}
-
-@media (max-width: 768px) {
-  .galeri .container figure img {
-    height: auto !important;
-    object-fit: contain !important;
-  }
-
-  .galeri .container figure {
-    height: auto !important;
-  }
 }

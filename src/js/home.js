@@ -87,7 +87,7 @@ export const home = () => {
     const homeBrideData = {
       L: { name: "Herman" },
       P: { name: "Difa" },
-      couple: "/src/assets/images/home.jpg",
+      couple: "./src/assets/images/home.jpg",
     };
 
     const { time, link } = data;

@@ -83,7 +83,7 @@ export const welcome = () => {
     const welcomeBrideData = {
       L: { name: "Herman" },
       P: { name: "Difa" },
-      couple: "/src/assets/images/couple.jpg",
+      couple: "./src/assets/images/couple.jpg",
     };
 
     figureElement.innerHTML = generateFigureContent(welcomeBrideData);
