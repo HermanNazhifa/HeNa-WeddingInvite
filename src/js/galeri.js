@@ -31,11 +31,23 @@ export const galeri = () => {
     const selectedImage = data.galeri.find((item) => item.id === id);
 
     if (selectedImage) {
-      figureElement.innerHTML = `<img src="${selectedImage.image}" alt="galeri image" id="${selectedImage.id}">`;
+      const currentImg = figureElement.querySelector("img");
 
-      paginationElement.querySelectorAll("li").forEach((li) => {
-        li.classList.toggle("active", parseInt(li.dataset.id) === id);
-      });
+      if (currentImg) {
+        currentImg.classList.add("fade-out");
+
+        setTimeout(() => {
+          currentImg.src = selectedImage.image;
+          currentImg.id = selectedImage.id;
+          currentImg.alt = "galeri image";
+          currentImg.classList.remove("fade-out");
+
+          // Update pagination
+          paginationElement.querySelectorAll("li").forEach((li) => {
+            li.classList.toggle("active", parseInt(li.dataset.id) === id);
+          });
+        }, 300);
+      }
     }
   };
 

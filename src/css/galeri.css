@@ -43,7 +43,12 @@
   height: 35rem;
   object-fit: cover;
   border-radius: 15px;
-  transition: var(--transition-small);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.galeri .container figure img.fade-out {
+  opacity: 0;
 }
 
 .galeri .container ul {
