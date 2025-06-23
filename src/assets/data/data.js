@@ -6,7 +6,7 @@ export const data = {
       child: "Putra bungsu",
       father: "Alm. Bapak Andi",
       mother: "Ibu Nani",
-      image: "./src/assets/images/cowo.png",
+      image: "./src/assets/images/cowo.jpg",
     },
     P: {
       id: 2,
@@ -14,10 +14,10 @@ export const data = {
       child: "Putri ke 8",
       father: "Bapak Mian",
       mother: "Ibu Neneng",
-      image: "./src/assets/images/cewe.png",
+      image: "./src/assets/images/cewe.jpg",
     },
 
-    couple: "./src/assets/images/couple.png",
+    couple: "./src/assets/images/couple.jpg",
   },
 
   time: {
@@ -28,7 +28,7 @@ export const data = {
       day: "Kamis",
       hours: {
         start: "10.00",
-        finish: "11.00",
+        finish: "Selesai",
       },
     },
     reception: {
@@ -53,23 +53,39 @@ export const data = {
   galeri: [
     {
       id: 1,
-      image: "./src/assets/images/1.png",
+      image: "./src/assets/images/1.jpg",
     },
     {
       id: 2,
-      image: "./src/assets/images/2.png",
+      image: "./src/assets/images/2.jpg",
     },
     {
       id: 3,
-      image: "./src/assets/images/3.png",
+      image: "./src/assets/images/3.jpg",
     },
     {
       id: 4,
-      image: "./src/assets/images/4.png",
+      image: "./src/assets/images/4.jpg",
     },
     {
       id: 5,
-      image: "./src/assets/images/5.png",
+      image: "./src/assets/images/5.jpg",
+    },
+    {
+      id: 6,
+      image: "./src/assets/images/6.jpg",
+    },
+    {
+      id: 7,
+      image: "./src/assets/images/7.jpg",
+    },
+    {
+      id: 8,
+      image: "./src/assets/images/8.jpg",
+    },
+    {
+      id: 9,
+      image: "./src/assets/images/9.jpg",
     },
   ],
 
